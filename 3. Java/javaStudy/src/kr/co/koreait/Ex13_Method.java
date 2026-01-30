@@ -16,16 +16,23 @@ public class Ex13_Method {
 		
 		System.out.println(result);
 		
+		
+		int[] numbers = {100, 200, 300, 400};
+		
 		Ex13_1_Calc calc = new Ex13_1_Calc();
 		int add = calc.add(1, 2);
-		
+		int sum = calc.sub(numbers);
+ 
 		System.out.println(add);
 		
-		Scanner sc = new Scanner(System.in);
-		sc.nextI
+		Ex13_3_BankAccount bank = new Ex13_3_BankAccount();
+		bank.deposit(10000);
+		bank.withdraw(3500);
+		String check = bank.checkBalance();
+		System.out.println(check);
 		
-	}
-	
+		System.out.println(bank.checkBalance());
+ 	}
 	
 	// 안녕하세요 출력하는 메서드
 	// public 반환타입 메서드명(자료형 매개변수명) {   }
