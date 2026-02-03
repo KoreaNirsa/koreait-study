@@ -47,13 +47,6 @@ public class Ex20_1_Person {
 	public boolean getIsStudent() {
 		return isStudent;
 	}
-	
-	
-	
-	
-	
-	
-	
 }
  
 

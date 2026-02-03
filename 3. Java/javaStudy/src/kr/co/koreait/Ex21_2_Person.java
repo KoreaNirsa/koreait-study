@@ -8,5 +8,5 @@ public class Ex21_2_Person {
 		this.name = name;
 		this.age = age;
 	}
-
+	
 }

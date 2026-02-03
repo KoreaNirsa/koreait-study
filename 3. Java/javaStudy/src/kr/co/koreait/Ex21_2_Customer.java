@@ -4,6 +4,8 @@ package kr.co.koreait;
 
 public class Ex21_2_Customer extends Ex21_2_Person {
 	int memberId;
+	String name;
+	int age;
 	
 	Ex21_2_Customer(String name, int age, int memberId) {
 		super(name, age);
